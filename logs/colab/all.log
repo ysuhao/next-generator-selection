@@ -1,0 +1,16 @@
+EXTRACT itw wavlm: done 31779 items in 1.6062686999638875 min Tue Nov 10 12:07:03 PM UTC 2026
+EXTRACT dfadd wavlm: done 25490 items in 1.2323921998341878 min Tue Nov 10 12:08:22 PM UTC 2026
+EXTRACT asvspoof19 wavlm: done 121461 items in 5.214993079503377 min Tue Nov 10 12:13:41 PM UTC 2026
+Gaussian vs empirical LOGO EER, per fold:   rho=0.901
+Gaussian vs empirical LOGO EER, fold mean:  rho=0.995
+target eval_pooled: rho(dev_eer)=0.784  rho(logo_gauss_mean)=0.739  rho(logo_gauss_max)=0.800  rho(logo_emp_mean)=0.720
+target eval_mean: rho(dev_eer)=0.769  rho(logo_gauss_mean)=0.702  rho(logo_gauss_max)=0.756  rho(logo_emp_mean)=0.688
+target eval_max: rho(dev_eer)=0.764  rho(logo_gauss_mean)=0.688  rho(logo_gauss_max)=0.759  rho(logo_emp_mean)=0.669
+
+== selected configuration and resulting EER on unseen generators (A07-A19) ==
+ID dev validation                    layer= 2 lam=1.0e-05 pooled   | sel=  0.00  eval pooled= 1.20 mean= 0.68 worst= 4.21  dev= 0.00
+LOGO Gaussian mean (stats only)      layer=10 lam=1.0e-02 pooled   | sel=  2.82  eval pooled= 0.40 mean= 0.15 worst= 1.29  dev= 0.03
+LOGO Gaussian worst (stats only)     layer=11 lam=3.2e-02 pooled   | sel=  9.87  eval pooled= 0.53 mean= 0.21 worst= 1.75  dev= 0.04
+LOGO empirical mean (needs data)     layer=10 lam=1.0e-02 pooled   | sel=  2.76  eval pooled= 0.40 mean= 0.15 worst= 1.29  dev= 0.03
+oracle (eval pooled)                 layer=10 lam=3.2e-03 pooled   | sel=  0.39  eval pooled= 0.39 mean= 0.16 worst= 1.26  dev= 0.03
+STAGE1B ALLDONE Tue Nov 10 12:14:26 PM UTC 2026

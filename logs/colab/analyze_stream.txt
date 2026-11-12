@@ -1,0 +1,160 @@
+/usr/local/lib/python3.13/dist-packages/pandas/core/arrays/masked.py:63: UserWarning: Pandas requires version '1.5.0' or newer of 'bottleneck' (version '1.4.2' currently installed).
+  from pandas.core import (
+
+=== stream_la+dfadd_wav2vec2-xls-r-300m_mean_full_chrono.jsonl  (10 orders) ===
+rule              unseen(avg)      seen(avg)      final all       ITW(avg)
+logo                1.03±0.45      0.01±0.01      0.02±0.00     27.89±6.79
+logo_max            1.05±0.48      0.01±0.01      0.02±0.00     28.04±6.96
+idcv                1.12±0.62      0.01±0.01      0.02±0.00     28.23±7.59
+idcv_max            1.11±0.62      0.01±0.01      0.02±0.00     27.97±7.51
+fixed               1.77±0.26      0.04±0.01      0.09±0.00     19.36±1.86
+oracle_all          0.61±0.17      0.01±0.01      0.01±0.00     24.19±5.04
+oracle_unseen       0.61±0.17      0.02±0.01      0.01±0.00     27.26±4.63
+  logo_vs_idcv_unseen: mean diff -0.09 pts, wins 6/10, Wilcoxon p=0.4921875
+  logo_vs_fixed_unseen: mean diff -0.74 pts, wins 10/10, Wilcoxon p=0.001953125
+  logo_max_vs_idcv_unseen: mean diff -0.07 pts, wins 5/10, Wilcoxon p=0.845703125
+  idcv_vs_fixed_unseen: mean diff -0.65 pts, wins 9/10, Wilcoxon p=0.005859375
+  Spearman(criterion, true unseen EER) over grid, mean over steps: {'logo': 0.792, 'logo_max': 0.774, 'idcv': 0.789}
+  Spearman(criterion, ITW EER): {'logo': 0.374, 'idcv': 0.199}
+  chosen: {'logo': (6.5, -3.76, 0.15), 'idcv': (5.9, -2.34, 0.26), 'oracle_unseen': (6.2, -2.78, 0.43)}
+  forgetting: {'logo': 0.013, 'idcv': 0.012, 'fixed': 0.053}
+
+=== stream_la+dfadd_wavlm-large_mean_full.jsonl  (10 orders) ===
+rule              unseen(avg)      seen(avg)      final all       ITW(avg)
+logo                0.98±0.73      0.02±0.01      0.04±0.00     11.52±2.04
+logo_max            1.03±0.80      0.02±0.01      0.03±0.00     11.70±1.84
+idcv                0.99±0.54      0.02±0.01      0.02±0.00     13.89±3.19
+idcv_max            0.99±0.55      0.02±0.01      0.02±0.00     13.71±2.63
+fixed               2.47±1.52      0.20±0.13      0.32±0.00     11.27±1.74
+oracle_all          0.59±0.36      0.01±0.01      0.02±0.00     10.90±1.51
+oracle_unseen       0.58±0.37      0.11±0.21      0.02±0.00     11.73±1.89
+  logo_vs_idcv_unseen: mean diff -0.01 pts, wins 4/10, Wilcoxon p=0.921875
+  logo_vs_fixed_unseen: mean diff -1.49 pts, wins 10/10, Wilcoxon p=0.001953125
+  logo_max_vs_idcv_unseen: mean diff +0.04 pts, wins 3/10, Wilcoxon p=0.6953125
+  idcv_vs_fixed_unseen: mean diff -1.48 pts, wins 10/10, Wilcoxon p=0.001953125
+  Spearman(criterion, true unseen EER) over grid, mean over steps: {'logo': 0.798, 'logo_max': 0.766, 'idcv': 0.816}
+  Spearman(criterion, ITW EER): {'logo': 0.585, 'idcv': 0.464}
+  chosen: {'logo': (9.1, -2.95, 0.55), 'idcv': (6.7, -2.15, 0.44), 'oracle_unseen': (8.0, -2.0, 0.44)}
+  forgetting: {'logo': 0.022, 'idcv': 0.01, 'fixed': 0.112}
+
+=== stream_la+dfadd_wavlm-large_mean_full_chrono.jsonl  (20 orders) ===
+rule              unseen(avg)      seen(avg)      final all       ITW(avg)
+logo                1.56±0.49      0.04±0.01      0.04±0.00     16.00±1.74
+logo_max            1.62±0.48      0.04±0.02      0.03±0.00     16.05±1.75
+idcv                2.84±1.04      0.03±0.01      0.02±0.00     19.80±2.85
+idcv_max            2.64±1.00      0.03±0.01      0.03±0.00     19.69±2.86
+fixed               3.61±0.47      0.20±0.07      0.32±0.00     13.50±1.30
+oracle_all          0.85±0.16      0.03±0.01      0.02±0.00     15.54±1.63
+oracle_unseen       0.81±0.16      0.23±0.18      0.02±0.00     16.34±1.87
+  logo_vs_idcv_unseen: mean diff -1.28 pts, wins 19/20, Wilcoxon p=9.5367431640625e-06
+  logo_vs_fixed_unseen: mean diff -2.04 pts, wins 20/20, Wilcoxon p=1.9073486328125e-06
+  logo_max_vs_idcv_unseen: mean diff -1.22 pts, wins 19/20, Wilcoxon p=5.7220458984375e-06
+  idcv_vs_fixed_unseen: mean diff -0.77 pts, wins 17/20, Wilcoxon p=0.0014324188232421875
+  Spearman(criterion, true unseen EER) over grid, mean over steps: {'logo': 0.701, 'logo_max': 0.675, 'idcv': 0.636}
+  Spearman(criterion, ITW EER): {'logo': 0.425, 'idcv': 0.214}
+  chosen: {'logo': (10.3, -3.08, 0.41), 'idcv': (6.7, -2.25, 0.24), 'oracle_unseen': (10.5, -1.42, 0.34)}
+  forgetting: {'logo': 0.025, 'idcv': 0.014, 'fixed': 0.177}
+
+=== stream_la+dfadd_wavlm-large_mean_imb_chrono.jsonl  (10 orders) ===
+rule              unseen(avg)      seen(avg)      final all       ITW(avg)
+logo                1.48±0.68      0.04±0.02      0.04±0.01     15.15±2.34
+logo_max            1.55±0.75      0.03±0.02      0.04±0.02     15.58±2.24
+idcv                2.34±0.96      0.03±0.01      0.03±0.01     17.81±2.84
+idcv_max            2.49±0.99      0.03±0.01      0.03±0.01     18.52±2.42
+fixed               3.04±0.72      0.33±0.16      0.50±0.19     11.80±2.46
+oracle_all          0.69±0.24      0.03±0.01      0.02±0.00     14.13±2.10
+oracle_unseen       0.68±0.24      0.11±0.13      0.02±0.00     14.43±2.36
+  logo_vs_idcv_unseen: mean diff -0.86 pts, wins 10/10, Wilcoxon p=0.001953125
+  logo_vs_fixed_unseen: mean diff -1.56 pts, wins 10/10, Wilcoxon p=0.001953125
+  logo_max_vs_idcv_unseen: mean diff -0.80 pts, wins 9/10, Wilcoxon p=0.00390625
+  idcv_vs_fixed_unseen: mean diff -0.69 pts, wins 8/10, Wilcoxon p=0.02734375
+  Spearman(criterion, true unseen EER) over grid, mean over steps: {'logo': 0.732, 'logo_max': 0.701, 'idcv': 0.652}
+  Spearman(criterion, ITW EER): {'logo': 0.504, 'idcv': 0.333}
+  chosen: {'logo': (9.4, -2.27, 0.37), 'idcv': (6.7, -1.82, 0.91), 'oracle_unseen': (8.8, -1.32, 0.3)}
+  forgetting: {'logo': 0.027, 'idcv': 0.021, 'fixed': 0.279}
+
+=== stream_la_wav2vec2-xls-r-300m_mean_full.jsonl  (10 orders) ===
+rule              unseen(avg)      seen(avg)      final all       ITW(avg)
+logo                0.56±0.53      0.02±0.02      0.02±0.00     25.35±5.74
+logo_max            0.56±0.53      0.02±0.02      0.02±0.00     25.71±5.58
+idcv                0.48±0.44      0.02±0.02      0.02±0.00     25.96±6.40
+idcv_max            0.52±0.51      0.02±0.02      0.02±0.00     26.00±6.72
+fixed               1.21±0.84      0.03±0.01      0.04±0.00     20.00±2.52
+oracle_all          0.29±0.23      0.01±0.01      0.01±0.00     22.37±3.07
+oracle_unseen       0.28±0.23      0.04±0.06      0.01±0.00     23.36±4.04
+  logo_vs_idcv_unseen: mean diff +0.08 pts, wins 2/10, Wilcoxon p=0.130859375
+  logo_vs_fixed_unseen: mean diff -0.65 pts, wins 10/10, Wilcoxon p=0.001953125
+  logo_max_vs_idcv_unseen: mean diff +0.08 pts, wins 3/10, Wilcoxon p=0.16015625
+  idcv_vs_fixed_unseen: mean diff -0.72 pts, wins 10/10, Wilcoxon p=0.001953125
+  Spearman(criterion, true unseen EER) over grid, mean over steps: {'logo': 0.722, 'logo_max': 0.701, 'idcv': 0.748}
+  Spearman(criterion, ITW EER): {'logo': 0.437, 'idcv': 0.197}
+  chosen: {'logo': (6.9, -3.24, 0.34), 'idcv': (6.1, -2.32, 0.23), 'oracle_unseen': (6.1, -2.44, 0.33)}
+  forgetting: {'logo': 0.012, 'idcv': 0.012, 'fixed': 0.017}
+
+=== stream_la_wavlm-large_mean_full.jsonl  (20 orders) ===
+rule              unseen(avg)      seen(avg)      final all       ITW(avg)
+logo                0.81±0.50      0.03±0.02      0.05±0.00     16.45±2.38
+logo_max            0.89±0.56      0.03±0.02      0.05±0.00     17.15±2.63
+idcv                0.83±0.59      0.03±0.02      0.05±0.01     20.31±4.47
+idcv_max            0.83±0.58      0.03±0.02      0.04±0.00     20.15±4.34
+fixed               1.67±0.90      0.16±0.09      0.21±0.00     14.19±2.35
+oracle_all          0.45±0.33      0.02±0.01      0.02±0.00     16.69±2.47
+oracle_unseen       0.43±0.34      0.11±0.10      0.02±0.00     17.43±2.98
+  logo_vs_idcv_unseen: mean diff -0.01 pts, wins 9/20, Wilcoxon p=0.9272785186767578
+  logo_vs_fixed_unseen: mean diff -0.86 pts, wins 19/20, Wilcoxon p=6.29425048828125e-05
+  logo_max_vs_idcv_unseen: mean diff +0.06 pts, wins 7/20, Wilcoxon p=0.082550048828125
+  idcv_vs_fixed_unseen: mean diff -0.85 pts, wins 19/20, Wilcoxon p=4.76837158203125e-05
+  Spearman(criterion, true unseen EER) over grid, mean over steps: {'logo': 0.702, 'logo_max': 0.666, 'idcv': 0.718}
+  Spearman(criterion, ITW EER): {'logo': 0.435, 'idcv': 0.254}
+  chosen: {'logo': (10.2, -2.36, 0.39), 'idcv': (6.6, -2.22, 0.34), 'oracle_unseen': (8.9, -1.75, 0.39)}
+  forgetting: {'logo': 0.029, 'idcv': 0.029, 'fixed': 0.065}
+
+=== grad_la+dfadd_wavlm-large_full_chrono.jsonl ===
+method            unseen(avg)      seen(avg)      final all     forgetting            ITW
+ewc                 4.62±1.45      0.52±0.21      1.07±0.51      0.12±0.11     14.30±0.99  (n=20)
+ft                  4.27±0.90      0.89±0.41      0.96±0.39      0.76±0.38     12.97±0.71  (n=20)
+joint               3.38±0.72      0.06±0.02      0.06±0.04      0.04±0.04     12.41±0.91  (n=20)
+lwf                 3.78±1.26      0.32±0.11      0.55±0.16      0.39±0.18     15.13±1.62  (n=20)
+replay100           3.40±1.03      0.12±0.04      0.10±0.02      0.05±0.02     12.47±0.94  (n=20)
+
+=== grad_la_wavlm-large_full.jsonl ===
+method            unseen(avg)      seen(avg)      final all     forgetting            ITW
+ewc                 2.73±1.58      0.39±0.19      0.63±0.34      0.15±0.14     15.37±1.65  (n=20)
+ft                  3.85±2.03      0.88±0.42      0.92±0.53      0.68±0.53     14.51±1.43  (n=20)
+joint               2.11±1.36      0.07±0.03      0.05±0.01      0.02±0.01     13.97±1.26  (n=20)
+lwf                 2.58±1.56      0.21±0.09      0.25±0.07      0.05±0.04     15.82±2.16  (n=20)
+replay100           2.28±1.45      0.12±0.05      0.11±0.03      0.04±0.02     14.45±1.23  (n=20)
+replay500           2.17±1.47      0.07±0.03      0.06±0.02      0.02±0.01     13.45±1.50  (n=20)
+
+=== grad_la_wavlm-large_full_tune_base.jsonl ===
+method            unseen(avg)      seen(avg)      final all     forgetting            ITW
+ft                  0.70±0.11      2.01±0.17      3.03±0.56      2.82±0.56         -       (n=2)
+joint               0.31±0.10      0.08±0.03      0.06±0.01      0.03±0.01         -       (n=2)
+lwf                 0.32±0.20      0.33±0.07      0.25±0.10      0.12±0.07         -       (n=2)
+replay100           0.36±0.07      0.18±0.03      0.08±0.01      0.03±0.00         -       (n=2)
+
+=== grad_la_wavlm-large_full_tune_e1e3.jsonl ===
+method            unseen(avg)      seen(avg)      final all     forgetting            ITW
+ewc                 0.60±0.09      1.72±0.06      3.48±0.81      3.27±0.81         -       (n=2)
+
+=== grad_la_wavlm-large_full_tune_e1e5.jsonl ===
+method            unseen(avg)      seen(avg)      final all     forgetting            ITW
+ewc                 0.49±0.14      1.12±0.45      3.16±1.47      2.97±1.47         -       (n=2)
+
+=== grad_la_wavlm-large_full_tune_e1e7.jsonl ===
+method            unseen(avg)      seen(avg)      final all     forgetting            ITW
+ewc                 0.58±0.04      0.55±0.11      0.39±0.09      0.13±0.11         -       (n=2)
+
+=== grad_la_wavlm-large_full_tune_e1e9.jsonl ===
+method            unseen(avg)      seen(avg)      final all     forgetting            ITW
+ewc                 0.87±0.55      0.98±0.37      0.54±0.10      0.13±0.19         -       (n=2)
+
+=== extra_la+dfadd_wavlm-large_full_chrono_L24.jsonl ===
+method            unseen(avg)      seen(avg)      final all     forgetting            ITW
+ncm                10.34±2.91      7.16±1.95      9.34±0.00      3.16±1.22     20.36±0.72  (n=20)
+ranpac              3.33±0.36      0.16±0.05      0.24±0.01      0.12±0.02     17.27±1.39  (n=20)
+
+=== extra_la_wavlm-large_full_L24.jsonl ===
+method            unseen(avg)      seen(avg)      final all     forgetting            ITW
+ncm                12.08±4.50      6.88±2.29      7.91±0.00      2.24±1.23     20.64±1.28  (n=20)
+ranpac              1.59±0.81      0.13±0.06      0.17±0.01      0.04±0.02     17.63±2.38  (n=20)

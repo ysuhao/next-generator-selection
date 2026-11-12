@@ -1,0 +1,6 @@
+[90mHint: The `hf-cli` skill is not installed. Run `hf skills add -g` to teach your AI agents how to use the `hf` CLI.[0m
+/usr/local/lib/python3.13/dist-packages/huggingface_hub/cli/download.py:158: UserWarning: Ignoring `--include` since filenames have been explicitly set.
+  warnings.warn("Ignoring `--include` since filenames have been explicitly set.")
+Fetching 8 files:   0%|          | 0/8 [00:00<?, ?it/s]Fetching 8 files:  12%|█▎        | 1/8 [00:03<00:27,  3.92s/it]Fetching 8 files:  25%|██▌       | 2/8 [00:04<00:12,  2.07s/it]Fetching 8 files:  38%|███▊      | 3/8 [00:05<00:08,  1.67s/it]Fetching 8 files:  50%|█████     | 4/8 [00:07<00:06,  1.75s/it]Fetching 8 files:  62%|██████▎   | 5/8 [00:13<00:09,  3.32s/it]Fetching 8 files:  75%|███████▌  | 6/8 [00:13<00:04,  2.23s/it]Fetching 8 files:  88%|████████▊ | 7/8 [00:19<00:03,  3.32s/it]Fetching 8 files: 100%|██████████| 8/8 [00:22<00:00,  3.26s/it]Fetching 8 files: 100%|██████████| 8/8 [00:22<00:00,  2.84s/it]
+[32m✓ Downloaded[0m
+  path: /content/sp/data/dfadd_tmp

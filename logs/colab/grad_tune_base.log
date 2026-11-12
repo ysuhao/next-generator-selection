@@ -1,0 +1,12 @@
+/usr/local/lib/python3.13/dist-packages/pandas/core/arrays/masked.py:63: UserWarning: Pandas requires version '1.5.0' or newer of 'bottleneck' (version '1.4.2' currently installed).
+  from pandas.core import (
+test features loaded
+order 100 ft         final seen  3.43 all  3.43 (57s)
+order 100 lwf        final seen  0.18 all  0.18 (63s)
+order 100 replay100  final seen  0.08 all  0.08 (113s)
+order 100 joint      final seen  0.05 all  0.05 (351s)
+order 101 ft         final seen  2.63 all  2.63 (138s)
+order 101 lwf        final seen  0.32 all  0.32 (146s)
+order 101 replay100  final seen  0.09 all  0.09 (146s)
+order 101 joint      final seen  0.06 all  0.06 (411s)
+exit=0

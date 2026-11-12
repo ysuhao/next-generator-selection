@@ -1,0 +1,7 @@
+order 0 step  0 seen  3 | unseen EER%: logo  1.50 idcv  1.88 fixed  1.26 oracle  0.97 | seen: logo  0.00 idcv  0.00 fixed  0.09 | logo cfg L8 balanced 3e-01; idcv cfg L5 1e-02 | 980s
+order 0 step  1 seen  4 | unseen EER%: logo  1.22 idcv  1.26 fixed  1.08 oracle  0.72 | seen: logo  0.00 idcv  0.00 fixed  0.06 | logo cfg L8 balanced 3e-01; idcv cfg L5 1e-02 | 1035s
+order 0 step  2 seen  5 | unseen EER%: logo  1.47 idcv  1.05 fixed  1.03 oracle  0.61 | seen: logo  0.03 idcv  0.00 fixed  0.04 | logo cfg L2 balanced 3e-03; idcv cfg L5 1e-02 | 1100s
+order 0 step  3 seen  6 | unseen EER%: logo  1.25 idcv  0.85 fixed  0.95 oracle  0.52 | seen: logo  0.01 idcv  0.00 fixed  0.04 | logo cfg L2 balanced 3e-03; idcv cfg L7 1e-02 | 1171s
+order 0 step  4 seen  7 | unseen EER%: logo  0.29 idcv  0.16 fixed  0.64 oracle  0.08 | seen: logo  0.19 idcv  0.01 fixed  0.30 | logo cfg L22 balanced 3e-02; idcv cfg L5 1e-02 | 1241s
+order 0 step  5 seen  8 | unseen EER%: logo  0.24 idcv  0.12 fixed  0.65 oracle  0.06 | seen: logo  0.18 idcv  0.01 fixed  0.28 | logo cfg L22 balanced 3e-02; idcv cfg L5 1e-02 | 1311s
+exit=1

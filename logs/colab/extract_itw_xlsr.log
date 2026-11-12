@@ -1,0 +1,79 @@
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+Loading weights:   0%|          | 0/422 [00:00<?, ?it/s]Loading weights: 100%|██████████| 422/422 [00:00<00:00, 30229.99it/s]
+[transformers] [1mWav2Vec2Model LOAD REPORT[0m from: facebook/wav2vec2-xls-r-300m
+Key                          | Status     |  | 
+-----------------------------+------------+--+-
+project_q.weight             | UNEXPECTED |  | 
+quantizer.codevectors        | UNEXPECTED |  | 
+project_q.bias               | UNEXPECTED |  | 
+quantizer.weight_proj.bias   | UNEXPECTED |  | 
+project_hid.weight           | UNEXPECTED |  | 
+quantizer.weight_proj.weight | UNEXPECTED |  | 
+project_hid.bias             | UNEXPECTED |  | 
+
+Notes:
+- UNEXPECTED:	can be ignored when loading from different task/architecture; not ok if you expect identical arch.
+512/31779  10.4 utt/s  eta 49.9 min
+1024/31779  10.7 utt/s  eta 48.0 min
+1536/31779  10.6 utt/s  eta 47.4 min
+2048/31779  12.2 utt/s  eta 40.6 min
+2560/31779  12.6 utt/s  eta 38.6 min
+3072/31779  12.5 utt/s  eta 38.4 min
+3584/31779  12.2 utt/s  eta 38.4 min
+4096/31779  12.3 utt/s  eta 37.5 min
+4608/31779  12.1 utt/s  eta 37.4 min
+5120/31779  12.1 utt/s  eta 36.7 min
+5632/31779  11.9 utt/s  eta 36.8 min
+6144/31779  11.6 utt/s  eta 36.8 min
+6656/31779  11.4 utt/s  eta 36.7 min
+7168/31779  11.2 utt/s  eta 36.8 min
+7680/31779  11.1 utt/s  eta 36.3 min
+8192/31779  11.0 utt/s  eta 35.7 min
+8704/31779  11.0 utt/s  eta 35.0 min
+9216/31779  11.3 utt/s  eta 33.1 min
+9728/31779  11.6 utt/s  eta 31.7 min
+10240/31779  12.1 utt/s  eta 29.6 min
+10752/31779  12.3 utt/s  eta 28.4 min
+11264/31779  12.4 utt/s  eta 27.5 min
+11776/31779  12.6 utt/s  eta 26.4 min
+12288/31779  13.0 utt/s  eta 25.0 min
+12800/31779  13.1 utt/s  eta 24.1 min
+13312/31779  13.1 utt/s  eta 23.6 min
+13824/31779  12.9 utt/s  eta 23.2 min
+14336/31779  12.7 utt/s  eta 22.9 min
+14848/31779  12.5 utt/s  eta 22.5 min
+15360/31779  12.4 utt/s  eta 22.1 min
+15872/31779  12.2 utt/s  eta 21.7 min
+16384/31779  12.1 utt/s  eta 21.2 min
+16896/31779  12.0 utt/s  eta 20.7 min
+17408/31779  11.9 utt/s  eta 20.1 min
+17920/31779  11.9 utt/s  eta 19.5 min
+18432/31779  11.8 utt/s  eta 18.9 min
+18944/31779  11.7 utt/s  eta 18.2 min
+19456/31779  11.7 utt/s  eta 17.5 min
+19968/31779  11.8 utt/s  eta 16.7 min
+20480/31779  11.9 utt/s  eta 15.8 min
+20992/31779  12.1 utt/s  eta 14.9 min
+21504/31779  12.1 utt/s  eta 14.1 min
+22016/31779  12.2 utt/s  eta 13.4 min
+22528/31779  12.1 utt/s  eta 12.7 min
+23040/31779  12.2 utt/s  eta 12.0 min
+23552/31779  12.2 utt/s  eta 11.3 min
+24064/31779  12.1 utt/s  eta 10.6 min
+24576/31779  12.2 utt/s  eta 9.9 min
+25088/31779  12.1 utt/s  eta 9.2 min
+25600/31779  12.1 utt/s  eta 8.5 min
+26112/31779  12.0 utt/s  eta 7.9 min
+26624/31779  12.0 utt/s  eta 7.2 min
+27136/31779  11.9 utt/s  eta 6.5 min
+27648/31779  11.9 utt/s  eta 5.8 min
+28160/31779  11.9 utt/s  eta 5.1 min
+28672/31779  11.8 utt/s  eta 4.4 min
+29184/31779  11.8 utt/s  eta 3.7 min
+29696/31779  11.8 utt/s  eta 2.9 min
+30208/31779  11.7 utt/s  eta 2.2 min
+30720/31779  11.7 utt/s  eta 1.5 min
+31232/31779  11.6 utt/s  eta 0.8 min
+31744/31779  11.6 utt/s  eta 0.1 min
+31779/31779  11.5 utt/s  eta 0.0 min
+done 31779 items in 45.87627189159393 min

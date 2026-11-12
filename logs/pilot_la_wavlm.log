@@ -1,0 +1,39 @@
+layer 0 done (5s)
+layer 1 done (11s)
+layer 2 done (15s)
+layer 3 done (20s)
+layer 4 done (25s)
+layer 5 done (30s)
+layer 6 done (35s)
+layer 7 done (40s)
+layer 8 done (45s)
+layer 9 done (50s)
+layer 10 done (55s)
+layer 11 done (60s)
+layer 12 done (66s)
+layer 13 done (71s)
+layer 14 done (76s)
+layer 15 done (81s)
+layer 16 done (86s)
+layer 17 done (91s)
+layer 18 done (96s)
+layer 19 done (101s)
+layer 20 done (106s)
+layer 21 done (111s)
+layer 22 done (115s)
+layer 23 done (120s)
+layer 24 done (125s)
+
+== rank correlation over 750 configurations ==
+Gaussian vs empirical LOGO EER, per fold:   rho=0.899
+Gaussian vs empirical LOGO EER, fold mean:  rho=0.995
+target eval_pooled: rho(dev_eer)=0.784  rho(logo_gauss_mean)=0.741  rho(logo_gauss_max)=0.800  rho(logo_emp_mean)=0.725
+target eval_mean: rho(dev_eer)=0.769  rho(logo_gauss_mean)=0.704  rho(logo_gauss_max)=0.758  rho(logo_emp_mean)=0.694
+target eval_max: rho(dev_eer)=0.763  rho(logo_gauss_mean)=0.689  rho(logo_gauss_max)=0.760  rho(logo_emp_mean)=0.674
+
+== selected configuration and resulting EER on unseen generators (A07-A19) ==
+ID dev validation                    layer= 2 lam=1.0e-05 pooled   | sel=  0.00  eval pooled= 1.20 mean= 0.68 worst= 4.23  dev= 0.00
+LOGO Gaussian mean (stats only)      layer=10 lam=3.2e-03 pooled   | sel=  2.82  eval pooled= 0.39 mean= 0.16 worst= 1.26  dev= 0.03
+LOGO Gaussian worst (stats only)     layer=11 lam=3.2e-02 pooled   | sel=  9.87  eval pooled= 0.53 mean= 0.21 worst= 1.75  dev= 0.04
+LOGO empirical mean (needs data)     layer=10 lam=1.0e-02 pooled   | sel=  2.76  eval pooled= 0.39 mean= 0.15 worst= 1.29  dev= 0.03
+oracle (eval pooled)                 layer=10 lam=3.2e-03 pooled   | sel=  0.39  eval pooled= 0.39 mean= 0.16 worst= 1.26  dev= 0.03

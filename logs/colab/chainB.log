@@ -1,0 +1,22 @@
+FIN stream_ladf_full exit=0 Tue Nov 10 03:45:32 PM UTC 2026
+FIN stream_ladf_imb_chrono exit=0 Tue Nov 10 03:46:04 PM UTC 2026
+CHAINB PART1 DONE Tue Nov 10 03:46:04 PM UTC 2026
+EXTRACT itw xlsr: done 31779 items in 45.87627189159393 min Tue Nov 10 03:46:04 PM UTC 2026
+EXTRACT dfadd xlsr: done 25490 items in 31.25873766342799 min Tue Nov 10 03:46:04 PM UTC 2026
+EXTRACT asvspoof19 xlsr: done 121461 items in 17.90035315354665 min Tue Nov 10 04:04:07 PM UTC 2026
+Gaussian vs empirical LOGO EER, per fold:   rho=0.888
+Gaussian vs empirical LOGO EER, fold mean:  rho=0.996
+target eval_pooled: rho(dev_eer)=0.721  rho(logo_gauss_mean)=0.573  rho(logo_gauss_max)=0.609  rho(logo_emp_mean)=0.576
+target eval_mean: rho(dev_eer)=0.725  rho(logo_gauss_mean)=0.563  rho(logo_gauss_max)=0.599  rho(logo_emp_mean)=0.567
+target eval_max: rho(dev_eer)=0.706  rho(logo_gauss_mean)=0.572  rho(logo_gauss_max)=0.597  rho(logo_emp_mean)=0.576
+
+== selected configuration and resulting EER on unseen generators (A07-A19) ==
+ID dev validation                    layer= 0 lam=1.0e-05 pooled   | sel=  0.00  eval pooled= 3.98 mean= 2.50 worst=13.69  dev= 0.00
+LOGO Gaussian mean (stats only)      layer= 2 lam=1.0e-02 pooled   | sel=  0.69  eval pooled= 2.15 mean= 1.02 worst= 6.58  dev= 0.00
+LOGO Gaussian worst (stats only)     layer= 6 lam=1.0e-05 pooled   | sel=  2.64  eval pooled= 0.19 mean= 0.07 worst= 0.61  dev= 0.00
+LOGO empirical mean (needs data)     layer= 2 lam=1.0e-02 pooled   | sel=  0.52  eval pooled= 2.15 mean= 1.02 worst= 6.58  dev= 0.00
+oracle (eval pooled)                 layer= 6 lam=3.2e-02 pooled   | sel=  0.16  eval pooled= 0.16 mean= 0.07 worst= 0.63  dev= 0.00
+FIN xlsr_stream_la_full exit=0 Tue Nov 10 04:25:30 PM UTC 2026
+FIN xlsr_stream_ladf_chrono exit=0 Tue Nov 10 04:32:12 PM UTC 2026
+STAGE3 ALLDONE Tue Nov 10 04:32:12 PM UTC 2026
+CHAINB ALLDONE Tue Nov 10 04:32:12 PM UTC 2026

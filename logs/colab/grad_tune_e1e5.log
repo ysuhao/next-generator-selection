@@ -1,0 +1,6 @@
+/usr/local/lib/python3.13/dist-packages/pandas/core/arrays/masked.py:63: UserWarning: Pandas requires version '1.5.0' or newer of 'bottleneck' (version '1.4.2' currently installed).
+  from pandas.core import (
+test features loaded
+order 100 ewc        final seen  4.19 all  4.19 (71s)
+order 101 ewc        final seen  2.12 all  2.12 (72s)
+exit=0

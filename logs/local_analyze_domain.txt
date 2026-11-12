@@ -1,0 +1,28 @@
+
+=== stream_la_wavlm-large_mean_imb.jsonl
+  unseen LA      : logo 0.80¡À0.57  idcv 0.78¡À0.52  fixed 1.66¡À0.78  oracle_unseen 0.36¡À0.26
+  unseen TTS     : logo 0.30¡À0.22  idcv 0.33¡À0.24  fixed 0.45¡À0.18  oracle_unseen 0.10¡À0.06
+  unseen TTS-VC  : logo 0.03¡À0.05  idcv 0.06¡À0.09  fixed 0.10¡À0.06  oracle_unseen 0.01¡À0.01
+  unseen VC      : logo 2.48¡À2.00  idcv 2.18¡À1.38  fixed 5.34¡À2.33  oracle_unseen 1.18¡À0.75
+  test by_domain:LA:logo_vs_idcv: diff +0.03 wins 5/10 p=0.921875
+  test by_domain:LA:logo_vs_fixed: diff -0.86 wins 10/10 p=0.001953125
+  test by_family:TTS:logo_vs_idcv: diff -0.03 wins 6/10 p=0.4921875
+  test by_family:TTS:logo_vs_fixed: diff -0.15 wins 9/10 p=0.02734375
+  test by_family:TTS-VC:logo_vs_idcv: diff -0.02 wins 5/10 p=1.0
+  test by_family:TTS-VC:logo_vs_fixed: diff -0.06 wins 9/10 p=0.00390625
+  test by_family:VC:logo_vs_idcv: diff +0.30 wins 5/10 p=0.625
+  test by_family:VC:logo_vs_fixed: diff -2.86 wins 10/10 p=0.001953125
+
+=== stream_la_wavlm-large_mean_shot100.jsonl
+  unseen LA      : logo 1.03¡À0.70  idcv 0.94¡À0.69  fixed 2.87¡À0.88  oracle_unseen 0.59¡À0.45
+  unseen TTS     : logo 0.42¡À0.23  idcv 0.38¡À0.27  fixed 1.32¡À0.58  oracle_unseen 0.16¡À0.09
+  unseen TTS-VC  : logo 0.06¡À0.08  idcv 0.08¡À0.10  fixed 0.29¡À0.22  oracle_unseen 0.03¡À0.05
+  unseen VC      : logo 3.07¡À2.20  idcv 2.68¡À1.92  fixed 7.87¡À3.21  oracle_unseen 1.88¡À1.26
+  test by_domain:LA:logo_vs_idcv: diff +0.09 wins 3/10 p=0.232421875
+  test by_domain:LA:logo_vs_fixed: diff -1.83 wins 10/10 p=0.001953125
+  test by_family:TTS:logo_vs_idcv: diff +0.05 wins 4/10 p=0.322265625
+  test by_family:TTS:logo_vs_fixed: diff -0.90 wins 10/10 p=0.001953125
+  test by_family:TTS-VC:logo_vs_idcv: diff -0.01 wins 4/10 p=1.0
+  test by_family:TTS-VC:logo_vs_fixed: diff -0.23 wins 10/10 p=0.001953125
+  test by_family:VC:logo_vs_idcv: diff +0.39 wins 3/10 p=0.130859375
+  test by_family:VC:logo_vs_fixed: diff -4.81 wins 10/10 p=0.001953125

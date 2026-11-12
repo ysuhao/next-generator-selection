@@ -1,0 +1,14 @@
+test features cached
+order 7 step  0 seen  3 | unseen EER%: logo  7.23 idcv  6.73 fixed  2.08 oracle  0.50 | seen: logo  0.00 idcv  0.00 fixed  0.00 | logo L1 balanced 3e-02; idcv L2 3e-03 | 21s
+order 7 step  1 seen  4 | unseen EER%: logo 12.23 idcv 10.05 fixed  5.57 oracle  2.02 | seen: logo  0.09 idcv  0.06 fixed  0.04 | logo L1 balanced 3e-03; idcv L2 1e-02 | 46s
+order 7 step  2 seen  5 | unseen EER%: logo  8.06 idcv  5.68 fixed  5.49 oracle  1.06 | seen: logo  0.07 idcv  0.05 fixed  0.03 | logo L1 balanced 3e-03; idcv L2 1e-02 | 74s
+order 7 step  3 seen  6 | unseen EER%: logo  0.92 idcv  2.82 fixed  4.41 oracle  0.81 | seen: logo  0.03 idcv  0.05 fixed  0.04 | logo L6 balanced 1e-03; idcv L2 3e-03 | 103s
+order 7 step  4 seen  7 | unseen EER%: logo  1.18 idcv  3.52 fixed  5.03 oracle  1.18 | seen: logo  0.03 idcv  0.05 fixed  0.03 | logo L6 pooled 3e-03; idcv L2 3e-03 | 133s
+order 7 step  5 seen  8 | unseen EER%: logo  1.34 idcv  4.14 fixed  5.57 oracle  1.34 | seen: logo  0.03 idcv  0.05 fixed  0.03 | logo L6 pooled 1e-03; idcv L2 1e-03 | 171s
+order 7 step  6 seen  9 | unseen EER%: logo  2.55 idcv  4.16 fixed  6.21 oracle  1.36 | seen: logo  0.04 idcv  0.04 fixed  0.02 | logo L3 pooled 1e-02; idcv L2 1e-03 | 209s
+order 7 step  7 seen 10 | unseen EER%: logo  2.53 idcv  3.97 fixed  7.38 oracle  1.79 | seen: logo  0.04 idcv  0.05 fixed  0.02 | logo L3 pooled 1e-02; idcv L2 1e-03 | 249s
+order 7 step  8 seen 11 | unseen EER%: logo  3.38 idcv  3.93 fixed  7.94 oracle  1.63 | seen: logo  0.03 idcv  0.04 fixed  0.02 | logo L8 balanced 1e-02; idcv L2 3e-04 | 291s
+order 7 step  9 seen 12 | unseen EER%: logo  1.12 idcv  1.45 fixed  5.82 oracle  0.71 | seen: logo  0.02 idcv  0.03 fixed  0.02 | logo L6 pooled 3e-03; idcv L7 3e-03 | 336s
+order 7 step 10 seen 13 | unseen EER%: logo  2.16 idcv  2.71 fixed  8.99 oracle  1.61 | seen: logo  0.02 idcv  0.03 fixed  0.03 | logo L6 pooled 1e-02; idcv L7 3e-03 | 381s
+order 7 step 11 seen 14 | unseen EER%: logo   nan idcv   nan fixed   nan oracle   nan | seen: logo  0.02 idcv  0.02 fixed  0.05 | logo L6 pooled 1e-05; idcv L6 1e-02 | 427s
+exit=0

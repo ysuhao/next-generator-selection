@@ -1,0 +1,31 @@
+ASVspoof stream (WavLM, 25 layers): orders 20  logo 0.81+-0.50  idcv 0.83+-0.59  rankavg 0.73+-0.48  oracle 0.43+-0.34
+    rankavg vs logo {'diff': -0.08168750000000004, 'wins': 15, 'n': 20, 'p': 0.005580902099609375}  vs idcv {'diff': -0.0934335714285714, 'wins': 12, 'n': 20, 'p': 0.04405403137207031}
+    layer disagreement >=4 in 55% of 280 steps; LOGO better 81, ID-CV better 66; |gap| disagree 0.3091376623376623 agree 0.26052619047619047
+ASVspoof->DFADD chronological (WavLM, 25 layers): orders 20  logo 1.56+-0.49  idcv 2.84+-1.04  rankavg 1.45+-0.46  oracle 0.81+-0.16
+    rankavg vs logo {'diff': -0.10943342105263157, 'wins': 13, 'n': 20, 'p': 0.15364646911621094}  vs idcv {'diff': -1.3864463157894737, 'wins': 20, 'n': 20, 'p': 1.9073486328125e-06}
+    layer disagreement >=4 in 52% of 360 steps; LOGO better 145, ID-CV better 43; |gap| disagree 2.717755319148936 agree 0.5041860465116279
+ASVspoof+DFADD random order (WavLM, 13 layers): orders 10  logo 0.98+-0.73  idcv 0.99+-0.54  rankavg 0.87+-0.56  oracle 0.58+-0.37
+    rankavg vs logo {'diff': -0.11255684210526319, 'wins': 8, 'n': 10, 'p': 0.10546875}  vs idcv {'diff': -0.12246736842105263, 'wins': 6, 'n': 10, 'p': 0.16015625}
+    layer disagreement >=4 in 45% of 190 steps; LOGO better 55, ID-CV better 31; |gap| disagree 0.8609418604651164 agree 0.11557692307692308
+ASVspoof stream (XLS-R, 13 layers): orders 10  logo 0.56+-0.53  idcv 0.48+-0.44  rankavg 0.49+-0.46  oracle 0.28+-0.23
+    rankavg vs logo {'diff': -0.07004214285714287, 'wins': 7, 'n': 10, 'p': 0.048828125}  vs idcv {'diff': 0.008122142857142899, 'wins': 3, 'n': 10, 'p': 0.556640625}
+    layer disagreement >=4 in 9% of 140 steps; LOGO better 3, ID-CV better 10; |gap| disagree 0.8279923076923077 agree 0.09400236220472441
+ASVspoof->DFADD chronological (XLS-R, 13 layers): orders 10  logo 1.03+-0.45  idcv 1.12+-0.62  rankavg 0.95+-0.41  oracle 0.61+-0.17
+    rankavg vs logo {'diff': -0.07871789473684207, 'wins': 10, 'n': 10, 'p': 0.001953125}  vs idcv {'diff': -0.17056210526315796, 'wins': 7, 'n': 10, 'p': 0.130859375}
+    layer disagreement >=4 in 11% of 180 steps; LOGO better 7, ID-CV better 13; |gap| disagree 1.7519150000000001 agree 0.141693125
+TTS+hybrid->VC, unseen VC before any VC arrives (WavLM, 25 layers): orders 8  logo 6.59+-2.17  idcv 5.09+-2.70  rankavg 5.10+-2.20  oracle 3.13+-1.21
+    rankavg vs logo {'diff': -1.4921505681818181, 'wins': 8, 'n': 8, 'p': 0.0078125}  vs idcv {'diff': 0.013906249999999813, 'wins': 2, 'n': 8, 'p': 0.4609375}
+    layer disagreement >=4 in 55% of 80 steps; LOGO better 6, ID-CV better 38; |gap| disagree 2.985494318181819 agree 1.546409722222222
+    late [8, 12]: logo 6.44+-1.84  idcv 3.98+-2.08  rankavg 4.19+-2.00  oracle 3.04+-1.10 | rankavg vs idcv {'diff': 0.2093375000000003, 'wins': 2, 'n': 8, 'p': 0.1953125} | hand-over: {'logo': 7.27, 'idcv': 3.35, 'rankavg': 3.63, 'oracle': 2.99}
+pure TTS->VC, unseen VC before any VC arrives (WavLM, 25 layers): orders 8  logo 7.41+-3.37  idcv 5.62+-2.85  rankavg 6.24+-3.16  oracle 3.71+-1.46
+    rankavg vs logo {'diff': -1.1725898437499995, 'wins': 8, 'n': 8, 'p': 0.0078125}  vs idcv {'diff': 0.6198007812500005, 'wins': 3, 'n': 8, 'p': 0.1953125}
+    layer disagreement >=4 in 34% of 56 steps; LOGO better 3, ID-CV better 16; |gap| disagree 2.576407894736842 agree 2.5238783783783783
+    late [6, 9]: logo 6.87+-2.26  idcv 4.38+-1.85  rankavg 5.87+-2.46  oracle 3.42+-1.18 | rankavg vs idcv {'diff': 1.4954843749999998, 'wins': 2, 'n': 8, 'p': 0.0390625} | hand-over: {'logo': 6.71, 'idcv': 3.53, 'rankavg': 3.94, 'oracle': 2.87}
+TTS+hybrid->VC, unseen VC before any VC arrives (XLS-R, 25 layers): orders 8  logo 4.70+-2.29  idcv 4.23+-1.92  rankavg 3.94+-1.79  oracle 2.26+-1.13
+    rankavg vs logo {'diff': -0.7551562500000004, 'wins': 7, 'n': 8, 'p': 0.015625}  vs idcv {'diff': -0.2924545454545458, 'wins': 5, 'n': 8, 'p': 0.4609375}
+    layer disagreement >=4 in 31% of 80 steps; LOGO better 8, ID-CV better 17; |gap| disagree 2.5374399999999997 agree 1.4442681818181817
+    late [8, 12]: logo 4.70+-2.77  idcv 3.77+-1.34  rankavg 3.97+-1.86  oracle 2.34+-0.80 | rankavg vs idcv {'diff': 0.20917500000000003, 'wins': 5, 'n': 8, 'p': 0.84375} | hand-over: {'logo': 4.1, 'idcv': 3.21, 'rankavg': 3.02, 'oracle': 1.97}
+pure TTS->VC, unseen VC before any VC arrives (XLS-R, 25 layers): orders 8  logo 6.30+-2.88  idcv 6.72+-3.18  rankavg 5.69+-2.73  oracle 2.73+-1.41
+    rankavg vs logo {'diff': -0.6154726562499998, 'wins': 6, 'n': 8, 'p': 0.1484375}  vs idcv {'diff': -1.03080078125, 'wins': 5, 'n': 8, 'p': 0.109375}
+    layer disagreement >=4 in 43% of 56 steps; LOGO better 12, ID-CV better 12; |gap| disagree 3.1632291666666665 agree 2.7837734375
+    late [6, 9]: logo 4.96+-2.95  idcv 6.01+-2.52  rankavg 4.11+-2.33  oracle 2.71+-1.27 | rankavg vs idcv {'diff': -1.898484375, 'wins': 6, 'n': 8, 'p': 0.078125} | hand-over: {'logo': 2.53, 'idcv': 3.87, 'rankavg': 2.48, 'oracle': 1.79}

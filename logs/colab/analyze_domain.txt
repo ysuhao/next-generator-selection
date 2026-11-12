@@ -1,0 +1,123 @@
+/usr/local/lib/python3.13/dist-packages/pandas/core/arrays/masked.py:63: UserWarning: Pandas requires version '1.5.0' or newer of 'bottleneck' (version '1.4.2' currently installed).
+  from pandas.core import (
+
+=== stream_la+dfadd_wav2vec2-xls-r-300m_mean_full_chrono.jsonl
+  unseen DFADD   : logo 1.57±0.79  idcv 1.82±1.25  fixed 2.43±0.66  oracle_unseen 0.92±0.35
+  unseen LA      : logo 0.76±0.42  idcv 0.77±0.42  fixed 1.23±0.84  oracle_unseen 0.37±0.24
+  unseen TTS     : logo 0.22±0.24  idcv 0.25±0.28  fixed 0.30±0.24  oracle_unseen 0.06±0.04
+  unseen TTS-VC  : logo 0.21±0.33  idcv 0.28±0.44  fixed 0.02±0.02  oracle_unseen 0.01±0.01
+  unseen TTS-diff: logo 1.57±0.79  idcv 1.82±1.25  fixed 2.43±0.66  oracle_unseen 0.92±0.35
+  unseen VC      : logo 2.35±1.22  idcv 2.40±1.48  fixed 3.22±2.32  oracle_unseen 1.12±0.67
+  hand-over (all LA seen, DFADD unseen): logo DFADD 1.15±0.00 ITW 38.48  idcv DFADD 1.17±0.00 ITW 37.75  fixed DFADD 2.67±0.00 ITW 24.31  oracle_unseen DFADD 1.09±0.00 ITW 34.62
+  hand-over corr: {'logo': 0.778, 'logo_max': 0.738, 'idcv': 0.678}
+  corr with unseen-DFADD EER: {'logo': 0.775, 'idcv': 0.761}
+  test by_domain:DFADD:logo_vs_idcv: diff -0.25 wins 5/10 p=0.431640625
+  test by_domain:DFADD:logo_vs_fixed: diff -0.86 wins 9/10 p=0.009765625
+  test by_domain:LA:logo_vs_idcv: diff -0.01 wins 5/10 p=1.0
+  test by_domain:LA:logo_vs_fixed: diff -0.47 wins 8/10 p=0.10546875
+  test by_family:TTS:logo_vs_idcv: diff -0.03 wins 6/10 p=0.322265625
+  test by_family:TTS:logo_vs_fixed: diff -0.08 wins 7/10 p=0.375
+  test by_family:TTS-VC:logo_vs_idcv: diff -0.07 wins 5/10 p=0.25
+  test by_family:TTS-VC:logo_vs_fixed: diff +0.19 wins 2/10 p=0.0546875
+  test by_family:TTS-diff:logo_vs_idcv: diff -0.25 wins 5/10 p=0.431640625
+  test by_family:TTS-diff:logo_vs_fixed: diff -0.86 wins 9/10 p=0.009765625
+  test by_family:VC:logo_vs_idcv: diff -0.05 wins 2/10 p=0.431640625
+  test by_family:VC:logo_vs_fixed: diff -0.87 wins 7/10 p=0.275390625
+  test handover:logo_vs_idcv: diff -0.02 wins 10/10 p=0.001953125
+
+=== stream_la+dfadd_wavlm-large_mean_full.jsonl
+  unseen DFADD   : logo 0.85±1.20  idcv 0.97±1.27  fixed 1.40±1.12  oracle_unseen 0.30±0.33
+  unseen LA      : logo 1.01±0.66  idcv 0.97±0.52  fixed 2.66±1.73  oracle_unseen 0.65±0.42
+  unseen TTS     : logo 0.27±0.20  idcv 0.38±0.34  fixed 0.68±0.34  oracle_unseen 0.15±0.12
+  unseen TTS-VC  : logo 0.02±0.02  idcv 0.03±0.04  fixed 0.20±0.17  oracle_unseen 0.01±0.01
+  unseen TTS-diff: logo 0.85±1.20  idcv 0.97±1.27  fixed 1.40±1.12  oracle_unseen 0.30±0.33
+  unseen VC      : logo 2.96±1.78  idcv 2.64±1.32  fixed 7.77±4.31  oracle_unseen 1.90±1.13
+  corr with unseen-DFADD EER: {'logo': 0.789, 'idcv': 0.796}
+  test by_domain:DFADD:logo_vs_idcv: diff -0.13 wins 6/10 p=0.322265625
+  test by_domain:DFADD:logo_vs_fixed: diff -0.56 wins 9/10 p=0.005859375
+  test by_domain:LA:logo_vs_idcv: diff +0.04 wins 4/10 p=0.6953125
+  test by_domain:LA:logo_vs_fixed: diff -1.65 wins 10/10 p=0.001953125
+  test by_family:TTS:logo_vs_idcv: diff -0.11 wins 7/10 p=0.16015625
+  test by_family:TTS:logo_vs_fixed: diff -0.41 wins 10/10 p=0.001953125
+  test by_family:TTS-VC:logo_vs_idcv: diff -0.01 wins 7/10 p=0.203125
+  test by_family:TTS-VC:logo_vs_fixed: diff -0.18 wins 10/10 p=0.001953125
+  test by_family:TTS-diff:logo_vs_idcv: diff -0.13 wins 6/10 p=0.322265625
+  test by_family:TTS-diff:logo_vs_fixed: diff -0.56 wins 9/10 p=0.005859375
+  test by_family:VC:logo_vs_idcv: diff +0.32 wins 4/10 p=0.275390625
+  test by_family:VC:logo_vs_fixed: diff -4.81 wins 10/10 p=0.001953125
+
+=== stream_la+dfadd_wavlm-large_mean_full_chrono.jsonl
+  unseen DFADD   : logo 2.51±0.88  idcv 4.56±2.10  fixed 5.41±1.55  oracle_unseen 1.18±0.31
+  unseen LA      : logo 1.02±0.64  idcv 0.95±0.57  fixed 1.81±0.96  oracle_unseen 0.59±0.36
+  unseen TTS     : logo 0.30±0.34  idcv 0.32±0.38  fixed 0.55±0.25  oracle_unseen 0.16±0.07
+  unseen TTS-VC  : logo 0.13±0.40  idcv 0.21±0.45  fixed 0.11±0.07  oracle_unseen 0.06±0.08
+  unseen TTS-diff: logo 2.51±0.88  idcv 4.56±2.10  fixed 5.41±1.55  oracle_unseen 1.18±0.31
+  unseen VC      : logo 3.25±1.76  idcv 2.83±1.59  fixed 5.43±2.35  oracle_unseen 1.74±0.95
+  hand-over (all LA seen, DFADD unseen): logo DFADD 1.87±0.00 ITW 17.63  idcv DFADD 5.91±1.49 ITW 26.43  fixed DFADD 6.59±0.00 ITW 14.40  oracle_unseen DFADD 1.23±0.00 ITW 15.43
+  hand-over corr: {'logo': 0.576, 'logo_max': 0.544, 'idcv': 0.365}
+  corr with unseen-DFADD EER: {'logo': 0.644, 'idcv': 0.563}
+  test by_domain:DFADD:logo_vs_idcv: diff -2.05 wins 18/20 p=8.20159912109375e-05
+  test by_domain:DFADD:logo_vs_fixed: diff -2.90 wins 19/20 p=3.814697265625e-06
+  test by_domain:LA:logo_vs_idcv: diff +0.07 wins 8/20 p=0.36827659606933594
+  test by_domain:LA:logo_vs_fixed: diff -0.79 wins 19/20 p=0.0003948211669921875
+  test by_family:TTS:logo_vs_idcv: diff -0.02 wins 9/20 p=0.8123550415039062
+  test by_family:TTS:logo_vs_fixed: diff -0.24 wins 18/20 p=0.0007076263427734375
+  test by_family:TTS-VC:logo_vs_idcv: diff -0.08 wins 14/20 p=0.006210256590449749
+  test by_family:TTS-VC:logo_vs_fixed: diff +0.02 wins 17/20 p=0.006389617919921875
+  test by_family:TTS-diff:logo_vs_idcv: diff -2.05 wins 18/20 p=8.20159912109375e-05
+  test by_family:TTS-diff:logo_vs_fixed: diff -2.90 wins 19/20 p=3.814697265625e-06
+  test by_family:VC:logo_vs_idcv: diff +0.42 wins 8/20 p=0.06372261047363281
+  test by_family:VC:logo_vs_fixed: diff -2.17 wins 19/20 p=0.0004825592041015625
+  test handover:logo_vs_idcv: diff -4.04 wins 20/20 p=5.624201509968444e-05
+
+=== stream_la+dfadd_wavlm-large_mean_imb_chrono.jsonl
+  unseen DFADD   : logo 2.43±1.30  idcv 3.70±1.93  fixed 4.53±1.93  oracle_unseen 0.99±0.42
+  unseen LA      : logo 0.96±0.61  idcv 0.93±0.54  fixed 1.72±0.93  oracle_unseen 0.48±0.33
+  unseen TTS     : logo 0.36±0.44  idcv 0.36±0.44  fixed 0.42±0.25  oracle_unseen 0.11±0.09
+  unseen TTS-VC  : logo 0.22±0.57  idcv 0.28±0.57  fixed 0.13±0.13  oracle_unseen 0.02±0.04
+  unseen TTS-diff: logo 2.43±1.30  idcv 3.70±1.93  fixed 4.53±1.93  oracle_unseen 0.99±0.42
+  unseen VC      : logo 2.72±1.71  idcv 2.46±1.55  fixed 5.28±2.34  oracle_unseen 1.40±0.99
+  hand-over (all LA seen, DFADD unseen): logo DFADD 1.43±0.50 ITW 15.62  idcv DFADD 4.96±2.54 ITW 23.05  fixed DFADD 4.89±1.65 ITW 11.84  oracle_unseen DFADD 1.07±0.36 ITW 15.19
+  hand-over corr: {'logo': 0.658, 'logo_max': 0.626, 'idcv': 0.467}
+  corr with unseen-DFADD EER: {'logo': 0.682, 'idcv': 0.598}
+  test by_domain:DFADD:logo_vs_idcv: diff -1.28 wins 9/10 p=0.005859375
+  test by_domain:DFADD:logo_vs_fixed: diff -2.11 wins 9/10 p=0.00390625
+  test by_domain:LA:logo_vs_idcv: diff +0.03 wins 6/10 p=0.76953125
+  test by_domain:LA:logo_vs_fixed: diff -0.76 wins 9/10 p=0.01953125
+  test by_family:TTS:logo_vs_idcv: diff -0.01 wins 6/10 p=0.845703125
+  test by_family:TTS:logo_vs_fixed: diff -0.06 wins 7/10 p=0.193359375
+  test by_family:TTS-VC:logo_vs_idcv: diff -0.06 wins 7/10 p=0.12890625
+  test by_family:TTS-VC:logo_vs_fixed: diff +0.09 wins 8/10 p=0.322265625
+  test by_family:TTS-diff:logo_vs_idcv: diff -1.28 wins 9/10 p=0.005859375
+  test by_family:TTS-diff:logo_vs_fixed: diff -2.11 wins 9/10 p=0.00390625
+  test by_family:VC:logo_vs_idcv: diff +0.27 wins 3/10 p=0.130859375
+  test by_family:VC:logo_vs_fixed: diff -2.55 wins 9/10 p=0.005859375
+  test handover:logo_vs_idcv: diff -3.53 wins 9/10 p=0.005859375
+
+=== stream_la_wav2vec2-xls-r-300m_mean_full.jsonl
+  unseen LA      : logo 0.56±0.53  idcv 0.48±0.44  fixed 1.21±0.84  oracle_unseen 0.28±0.23
+  unseen TTS     : logo 0.16±0.17  idcv 0.13±0.15  fixed 0.31±0.27  oracle_unseen 0.05±0.03
+  unseen TTS-VC  : logo 0.03±0.04  idcv 0.08±0.17  fixed 0.01±0.01  oracle_unseen 0.01±0.02
+  unseen VC      : logo 1.78±1.38  idcv 1.49±1.12  fixed 3.54±2.65  oracle_unseen 0.93±0.74
+  test by_domain:LA:logo_vs_idcv: diff +0.08 wins 2/10 p=0.130859375
+  test by_domain:LA:logo_vs_fixed: diff -0.65 wins 10/10 p=0.001953125
+  test by_family:TTS:logo_vs_idcv: diff +0.03 wins 4/10 p=0.232421875
+  test by_family:TTS:logo_vs_fixed: diff -0.15 wins 7/10 p=0.232421875
+  test by_family:TTS-VC:logo_vs_idcv: diff -0.05 wins 4/10 p=0.4375
+  test by_family:TTS-VC:logo_vs_fixed: diff +0.02 wins 2/10 p=0.0390625
+  test by_family:VC:logo_vs_idcv: diff +0.29 wins 3/10 p=0.10546875
+  test by_family:VC:logo_vs_fixed: diff -1.76 wins 9/10 p=0.00390625
+
+=== stream_la_wavlm-large_mean_full.jsonl
+  unseen LA      : logo 0.81±0.50  idcv 0.83±0.59  fixed 1.67±0.90  oracle_unseen 0.43±0.34
+  unseen TTS     : logo 0.29±0.31  idcv 0.30±0.34  fixed 0.50±0.31  oracle_unseen 0.10±0.06
+  unseen TTS-VC  : logo 0.11±0.37  idcv 0.15±0.46  fixed 0.10±0.08  oracle_unseen 0.02±0.02
+  unseen VC      : logo 2.46±1.39  idcv 2.43±1.81  fixed 5.16±2.63  oracle_unseen 1.44±1.00
+  test by_domain:LA:logo_vs_idcv: diff -0.01 wins 9/20 p=0.9272785186767578
+  test by_domain:LA:logo_vs_fixed: diff -0.86 wins 19/20 p=6.29425048828125e-05
+  test by_family:TTS:logo_vs_idcv: diff -0.01 wins 10/20 p=0.5958194732666016
+  test by_family:TTS:logo_vs_fixed: diff -0.21 wins 18/20 p=0.002712249755859375
+  test by_family:TTS-VC:logo_vs_idcv: diff -0.04 wins 16/20 p=0.017181396484375
+  test by_family:TTS-VC:logo_vs_fixed: diff +0.01 wins 18/20 p=0.0023250579833984375
+  test by_family:VC:logo_vs_idcv: diff +0.03 wins 7/20 p=0.2942523956298828
+  test by_family:VC:logo_vs_fixed: diff -2.69 wins 18/20 p=1.33514404296875e-05

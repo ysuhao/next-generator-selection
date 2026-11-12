@@ -1,0 +1,41 @@
+/usr/local/lib/python3.13/dist-packages/pandas/core/arrays/masked.py:63: UserWarning: Pandas requires version '1.5.0' or newer of 'bottleneck' (version '1.4.2' currently installed).
+  from pandas.core import (
+layer 0 done (4s)
+layer 1 done (8s)
+layer 2 done (12s)
+layer 3 done (15s)
+layer 4 done (19s)
+layer 5 done (23s)
+layer 6 done (27s)
+layer 7 done (30s)
+layer 8 done (34s)
+layer 9 done (38s)
+layer 10 done (41s)
+layer 11 done (45s)
+layer 12 done (49s)
+layer 13 done (52s)
+layer 14 done (56s)
+layer 15 done (60s)
+layer 16 done (64s)
+layer 17 done (67s)
+layer 18 done (71s)
+layer 19 done (75s)
+layer 20 done (78s)
+layer 21 done (82s)
+layer 22 done (86s)
+layer 23 done (90s)
+layer 24 done (93s)
+
+== rank correlation over 750 configurations ==
+Gaussian vs empirical LOGO EER, per fold:   rho=0.888
+Gaussian vs empirical LOGO EER, fold mean:  rho=0.996
+target eval_pooled: rho(dev_eer)=0.721  rho(logo_gauss_mean)=0.573  rho(logo_gauss_max)=0.609  rho(logo_emp_mean)=0.576
+target eval_mean: rho(dev_eer)=0.725  rho(logo_gauss_mean)=0.563  rho(logo_gauss_max)=0.599  rho(logo_emp_mean)=0.567
+target eval_max: rho(dev_eer)=0.706  rho(logo_gauss_mean)=0.572  rho(logo_gauss_max)=0.597  rho(logo_emp_mean)=0.576
+
+== selected configuration and resulting EER on unseen generators (A07-A19) ==
+ID dev validation                    layer= 0 lam=1.0e-05 pooled   | sel=  0.00  eval pooled= 3.98 mean= 2.50 worst=13.69  dev= 0.00
+LOGO Gaussian mean (stats only)      layer= 2 lam=1.0e-02 pooled   | sel=  0.69  eval pooled= 2.15 mean= 1.02 worst= 6.58  dev= 0.00
+LOGO Gaussian worst (stats only)     layer= 6 lam=1.0e-05 pooled   | sel=  2.64  eval pooled= 0.19 mean= 0.07 worst= 0.61  dev= 0.00
+LOGO empirical mean (needs data)     layer= 2 lam=1.0e-02 pooled   | sel=  0.52  eval pooled= 2.15 mean= 1.02 worst= 6.58  dev= 0.00
+oracle (eval pooled)                 layer= 6 lam=3.2e-02 pooled   | sel=  0.16  eval pooled= 0.16 mean= 0.07 worst= 0.63  dev= 0.00

@@ -1,0 +1,124 @@
+{
+ "extra_la+dfadd_wavlm-large_full_chrono_L24.jsonl": {
+  "records": 800,
+  "orders": 20,
+  "complete_orders": 20,
+  "methods": [
+   "ncm",
+   "ranpac"
+  ]
+ },
+ "extra_la_wavlm-large_full_L24.jsonl": {
+  "records": 600,
+  "orders": 20,
+  "complete_orders": 20,
+  "methods": [
+   "ncm",
+   "ranpac"
+  ]
+ },
+ "grad_la+dfadd_wavlm-large_full_chrono.jsonl": {
+  "records": 2000,
+  "orders": 20,
+  "complete_orders": 20,
+  "methods": [
+   "ewc",
+   "ft",
+   "joint",
+   "lwf",
+   "replay100"
+  ]
+ },
+ "grad_la_wavlm-large_full.jsonl": {
+  "records": 1800,
+  "orders": 20,
+  "complete_orders": 20,
+  "methods": [
+   "ewc",
+   "ft",
+   "joint",
+   "lwf",
+   "replay100",
+   "replay500"
+  ]
+ },
+ "grad_la_wavlm-large_full_tune_base.jsonl": {
+  "records": 120,
+  "orders": 2,
+  "complete_orders": 2,
+  "methods": [
+   "ft",
+   "joint",
+   "lwf",
+   "replay100"
+  ]
+ },
+ "grad_la_wavlm-large_full_tune_e1e3.jsonl": {
+  "records": 30,
+  "orders": 2,
+  "complete_orders": 2,
+  "methods": [
+   "ewc"
+  ]
+ },
+ "grad_la_wavlm-large_full_tune_e1e5.jsonl": {
+  "records": 30,
+  "orders": 2,
+  "complete_orders": 2,
+  "methods": [
+   "ewc"
+  ]
+ },
+ "grad_la_wavlm-large_full_tune_e1e7.jsonl": {
+  "records": 30,
+  "orders": 2,
+  "complete_orders": 2,
+  "methods": [
+   "ewc"
+  ]
+ },
+ "grad_la_wavlm-large_full_tune_e1e9.jsonl": {
+  "records": 30,
+  "orders": 2,
+  "complete_orders": 2,
+  "methods": [
+   "ewc"
+  ]
+ },
+ "stream_la+dfadd_wav2vec2-xls-r-300m_mean_full_chrono.jsonl": {
+  "records": 200,
+  "orders": 10,
+  "complete_orders": 10,
+  "methods": null
+ },
+ "stream_la+dfadd_wavlm-large_mean_full.jsonl": {
+  "records": 200,
+  "orders": 10,
+  "complete_orders": 10,
+  "methods": null
+ },
+ "stream_la+dfadd_wavlm-large_mean_full_chrono.jsonl": {
+  "records": 400,
+  "orders": 20,
+  "complete_orders": 20,
+  "methods": null
+ },
+ "stream_la+dfadd_wavlm-large_mean_imb_chrono.jsonl": {
+  "records": 200,
+  "orders": 10,
+  "complete_orders": 10,
+  "methods": null
+ },
+ "stream_la_wav2vec2-xls-r-300m_mean_full.jsonl": {
+  "records": 150,
+  "orders": 10,
+  "complete_orders": 10,
+  "methods": null
+ },
+ "stream_la_wavlm-large_mean_full.jsonl": {
+  "records": 300,
+  "orders": 20,
+  "complete_orders": 20,
+  "methods": null
+ }
+}

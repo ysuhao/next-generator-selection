@@ -1,0 +1,55 @@
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+Loading weights:   0%|          | 0/488 [00:00<?, ?it/s]Loading weights: 100%|██████████| 488/488 [00:00<00:00, 73436.44it/s]
+/usr/local/lib/python3.13/dist-packages/torch/nn/functional.py:6829: UserWarning: Support for mismatched key_padding_mask and attn_mask is deprecated. Use same type for both instead.
+  key_padding_mask = _canonical_mask(
+512/25490  333.9 utt/s  eta 1.2 min
+1024/25490  367.8 utt/s  eta 1.1 min
+1536/25490  370.8 utt/s  eta 1.1 min
+2048/25490  362.2 utt/s  eta 1.1 min
+2560/25490  330.3 utt/s  eta 1.2 min
+3072/25490  331.4 utt/s  eta 1.1 min
+3584/25490  329.8 utt/s  eta 1.1 min
+4096/25490  336.2 utt/s  eta 1.1 min
+4608/25490  346.1 utt/s  eta 1.0 min
+5120/25490  353.9 utt/s  eta 1.0 min
+5632/25490  361.3 utt/s  eta 0.9 min
+6144/25490  367.6 utt/s  eta 0.9 min
+6656/25490  373.5 utt/s  eta 0.8 min
+7168/25490  377.8 utt/s  eta 0.8 min
+7680/25490  381.4 utt/s  eta 0.8 min
+8192/25490  384.5 utt/s  eta 0.7 min
+8704/25490  387.9 utt/s  eta 0.7 min
+9216/25490  390.0 utt/s  eta 0.7 min
+9728/25490  391.3 utt/s  eta 0.7 min
+10240/25490  391.3 utt/s  eta 0.6 min
+10752/25490  391.6 utt/s  eta 0.6 min
+11264/25490  391.4 utt/s  eta 0.6 min
+11776/25490  391.4 utt/s  eta 0.6 min
+12288/25490  391.5 utt/s  eta 0.6 min
+12800/25490  390.1 utt/s  eta 0.5 min
+13312/25490  379.3 utt/s  eta 0.5 min
+13824/25490  371.6 utt/s  eta 0.5 min
+14336/25490  365.0 utt/s  eta 0.5 min
+14848/25490  359.1 utt/s  eta 0.5 min
+15360/25490  353.4 utt/s  eta 0.5 min
+15872/25490  349.2 utt/s  eta 0.5 min
+16384/25490  349.5 utt/s  eta 0.4 min
+16896/25490  349.9 utt/s  eta 0.4 min
+17408/25490  349.9 utt/s  eta 0.4 min
+17920/25490  350.0 utt/s  eta 0.4 min
+18432/25490  350.3 utt/s  eta 0.3 min
+18944/25490  350.1 utt/s  eta 0.3 min
+19456/25490  349.7 utt/s  eta 0.3 min
+19968/25490  349.4 utt/s  eta 0.3 min
+20480/25490  349.2 utt/s  eta 0.2 min
+20992/25490  349.0 utt/s  eta 0.2 min
+21504/25490  348.8 utt/s  eta 0.2 min
+22016/25490  349.6 utt/s  eta 0.2 min
+22528/25490  351.5 utt/s  eta 0.1 min
+23040/25490  352.4 utt/s  eta 0.1 min
+23552/25490  352.4 utt/s  eta 0.1 min
+24064/25490  350.1 utt/s  eta 0.1 min
+24576/25490  348.6 utt/s  eta 0.0 min
+25088/25490  348.4 utt/s  eta 0.0 min
+25490/25490  348.2 utt/s  eta 0.0 min
+done 25490 items in 1.2323921998341878 min

@@ -1,0 +1,66 @@
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+Loading weights:   0%|          | 0/422 [00:00<?, ?it/s]Loading weights: 100%|██████████| 422/422 [00:00<00:00, 52009.76it/s]
+[transformers] [1mWav2Vec2Model LOAD REPORT[0m from: facebook/wav2vec2-xls-r-300m
+Key                          | Status     |  | 
+-----------------------------+------------+--+-
+quantizer.weight_proj.weight | UNEXPECTED |  | 
+project_q.bias               | UNEXPECTED |  | 
+project_hid.weight           | UNEXPECTED |  | 
+project_hid.bias             | UNEXPECTED |  | 
+project_q.weight             | UNEXPECTED |  | 
+quantizer.codevectors        | UNEXPECTED |  | 
+quantizer.weight_proj.bias   | UNEXPECTED |  | 
+
+Notes:
+- UNEXPECTED:	can be ignored when loading from different task/architecture; not ok if you expect identical arch.
+512/25490  8.6 utt/s  eta 48.6 min
+1024/25490  8.2 utt/s  eta 49.5 min
+1536/25490  9.5 utt/s  eta 42.0 min
+2048/25490  10.7 utt/s  eta 36.6 min
+2560/25490  12.6 utt/s  eta 30.4 min
+3072/25490  14.8 utt/s  eta 25.3 min
+3584/25490  15.3 utt/s  eta 23.9 min
+4096/25490  17.2 utt/s  eta 20.7 min
+4608/25490  17.6 utt/s  eta 19.8 min
+5120/25490  18.4 utt/s  eta 18.4 min
+5632/25490  20.0 utt/s  eta 16.5 min
+6144/25490  19.5 utt/s  eta 16.5 min
+6656/25490  20.9 utt/s  eta 15.0 min
+7168/25490  22.3 utt/s  eta 13.7 min
+7680/25490  22.0 utt/s  eta 13.5 min
+8192/25490  23.1 utt/s  eta 12.5 min
+8704/25490  22.5 utt/s  eta 12.5 min
+9216/25490  22.6 utt/s  eta 12.0 min
+9728/25490  22.9 utt/s  eta 11.5 min
+10240/25490  23.9 utt/s  eta 10.7 min
+10752/25490  22.4 utt/s  eta 11.0 min
+11264/25490  21.2 utt/s  eta 11.2 min
+11776/25490  19.7 utt/s  eta 11.6 min
+12288/25490  18.6 utt/s  eta 11.8 min
+12800/25490  17.5 utt/s  eta 12.1 min
+13312/25490  16.6 utt/s  eta 12.2 min
+13824/25490  15.9 utt/s  eta 12.2 min
+14336/25490  15.3 utt/s  eta 12.2 min
+14848/25490  14.7 utt/s  eta 12.1 min
+15360/25490  14.2 utt/s  eta 11.9 min
+15872/25490  13.8 utt/s  eta 11.6 min
+16384/25490  13.5 utt/s  eta 11.2 min
+16896/25490  13.8 utt/s  eta 10.3 min
+17408/25490  13.8 utt/s  eta 9.7 min
+17920/25490  13.8 utt/s  eta 9.1 min
+18432/25490  14.1 utt/s  eta 8.3 min
+18944/25490  14.2 utt/s  eta 7.7 min
+19456/25490  14.4 utt/s  eta 7.0 min
+19968/25490  14.1 utt/s  eta 6.5 min
+20480/25490  13.8 utt/s  eta 6.1 min
+20992/25490  13.5 utt/s  eta 5.6 min
+21504/25490  13.3 utt/s  eta 5.0 min
+22016/25490  13.2 utt/s  eta 4.4 min
+22528/25490  13.4 utt/s  eta 3.7 min
+23040/25490  13.4 utt/s  eta 3.0 min
+23552/25490  13.6 utt/s  eta 2.4 min
+24064/25490  13.6 utt/s  eta 1.7 min
+24576/25490  13.7 utt/s  eta 1.1 min
+25088/25490  13.7 utt/s  eta 0.5 min
+25490/25490  13.6 utt/s  eta 0.0 min
+done 25490 items in 31.25873766342799 min

@@ -1,0 +1,7 @@
+{
+ "order_invariance_pooled": 1.0220750042594284e-12,
+ "removal_pooled": 8.824813329168823e-13,
+ "incremental_vs_batch_S": 1.3114154208912311e-18,
+ "order_invariance_balanced": 2.746334871485195e-12,
+ "removal_balanced": 2.295128920704712e-12
+}
